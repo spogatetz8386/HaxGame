@@ -15,6 +15,7 @@
 		10F9C87B1DD2637F00C8CCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F9C8791DD2637F00C8CCE4 /* LaunchScreen.storyboard */; };
 		10F9C8861DD2637F00C8CCE4 /* HaxballGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F9C8851DD2637F00C8CCE4 /* HaxballGameTests.swift */; };
 		10F9C8911DD2637F00C8CCE4 /* HaxballGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F9C8901DD2637F00C8CCE4 /* HaxballGameUITests.swift */; };
+		5FA2B67F1DD29F6D00BBCD58 /* HaxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2B67E1DD29F6D00BBCD58 /* HaxVC.swift */; };
 		752D5CA73EBE3E70131A455D /* Pods_HaxballGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C6DD9426DBC810CB062AE /* Pods_HaxballGame.framework */; };
 		CA26EE1846E809850D91E49C /* Pods_HaxballGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B717E665CAECB88CD4A260E /* Pods_HaxballGameUITests.framework */; };
 		EB962D29D62861AD13CAF415 /* Pods_HaxballGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EB6D78C980568A07F2D409 /* Pods_HaxballGameTests.framework */; };
@@ -54,6 +55,7 @@
 		10F9C8921DD2637F00C8CCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B717E665CAECB88CD4A260E /* Pods_HaxballGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5488EC6E773D04887B91B4 /* Pods-HaxballGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA2B67E1DD29F6D00BBCD58 /* HaxVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaxVC.swift; sourceTree = "<group>"; };
 		76085B6452019CAB8ADC1EA7 /* Pods-HaxballGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame.release.xcconfig"; sourceTree = "<group>"; };
 		861C6DD9426DBC810CB062AE /* Pods_HaxballGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880D0E516AA2EEA8EDDD73C0 /* Pods-HaxballGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				10F9C8701DD2637F00C8CCE4 /* art.scnassets */,
 				10F9C8721DD2637F00C8CCE4 /* GameViewController.swift */,
 				10F9C8741DD2637F00C8CCE4 /* Main.storyboard */,
+				5FA2B67E1DD29F6D00BBCD58 /* HaxVC.swift */,
 				10F9C8771DD2637F00C8CCE4 /* Assets.xcassets */,
 				10F9C8791DD2637F00C8CCE4 /* LaunchScreen.storyboard */,
 				10F9C87C1DD2637F00C8CCE4 /* Info.plist */,
@@ -244,6 +247,7 @@
 				TargetAttributes = {
 					10F9C86A1DD2637F00C8CCE4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V3UH2AU36R;
 					};
 					10F9C8801DD2637F00C8CCE4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -432,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F9C8731DD2637F00C8CCE4 /* GameViewController.swift in Sources */,
+				5FA2B67F1DD29F6D00BBCD58 /* HaxVC.swift in Sources */,
 				10F9C86F1DD2637F00C8CCE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,10 +582,13 @@
 			baseConfigurationReference = 4C5488EC6E773D04887B91B4 /* Pods-HaxballGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HaxballGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jotogatetz.HaxballGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -589,10 +597,13 @@
 			baseConfigurationReference = 76085B6452019CAB8ADC1EA7 /* Pods-HaxballGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HaxballGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jotogatetz.HaxballGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

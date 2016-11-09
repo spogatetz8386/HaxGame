@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HaxVC-->
         <scene sceneID="sxP-1M-AS4">
             <objects>
-                <viewController id="4ui-Al-lB9" sceneMemberID="viewController">
+                <viewController id="4ui-Al-lB9" customClass="HaxVC" customModule="HaxballGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="isM-yy-VUK"/>
                         <viewControllerLayoutGuide type="bottom" id="KU3-at-kWo"/>
@@ -17,9 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="CYA-vo-XPB" appends="YES" id="dJj-v2-Gg5"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CAs-Oj-7Ra" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="CYA-vo-XPB"/>
             </objects>
             <point key="canvasLocation" x="315" y="406"/>
         </scene>
