@@ -37,7 +37,7 @@ public class CDJoystick: UIView {
     private var stickView = UIView(frame: CGRect(origin: .zero, size: .zero))
     private var displayLink: CADisplayLink?
     
-    private var tracking = false {
+    public var tracking = false {
         didSet {
             UIView.animateWithDuration(0.25, animations: { () -> Void in
                 self.alpha = self.tracking ? 1.0 : self.fade

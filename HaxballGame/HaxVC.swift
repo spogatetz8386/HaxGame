@@ -62,7 +62,6 @@ class HaxVC: UIViewController, UICollisionBehaviorDelegate {
     
     func addJS(frame: CGRect) -> CDJoystick{
         let js = CDJoystick()
-        js.vc = self
         js.frame = frame
         js.backgroundColor = .clearColor()
         js.substrateColor = .lightGrayColor()
