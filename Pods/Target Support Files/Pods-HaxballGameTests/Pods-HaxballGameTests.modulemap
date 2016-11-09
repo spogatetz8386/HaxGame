@@ -1,0 +1,6 @@
+framework module Pods_HaxballGameTests {
+  umbrella header "Pods-HaxballGameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

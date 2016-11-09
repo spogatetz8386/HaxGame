@@ -15,6 +15,9 @@
 		10F9C87B1DD2637F00C8CCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F9C8791DD2637F00C8CCE4 /* LaunchScreen.storyboard */; };
 		10F9C8861DD2637F00C8CCE4 /* HaxballGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F9C8851DD2637F00C8CCE4 /* HaxballGameTests.swift */; };
 		10F9C8911DD2637F00C8CCE4 /* HaxballGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F9C8901DD2637F00C8CCE4 /* HaxballGameUITests.swift */; };
+		752D5CA73EBE3E70131A455D /* Pods_HaxballGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C6DD9426DBC810CB062AE /* Pods_HaxballGame.framework */; };
+		CA26EE1846E809850D91E49C /* Pods_HaxballGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B717E665CAECB88CD4A260E /* Pods_HaxballGameUITests.framework */; };
+		EB962D29D62861AD13CAF415 /* Pods_HaxballGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EB6D78C980568A07F2D409 /* Pods_HaxballGameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		10F9C88C1DD2637F00C8CCE4 /* HaxballGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaxballGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F9C8901DD2637F00C8CCE4 /* HaxballGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxballGameUITests.swift; sourceTree = "<group>"; };
 		10F9C8921DD2637F00C8CCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B717E665CAECB88CD4A260E /* Pods_HaxballGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5488EC6E773D04887B91B4 /* Pods-HaxballGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame.debug.xcconfig"; sourceTree = "<group>"; };
+		76085B6452019CAB8ADC1EA7 /* Pods-HaxballGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame.release.xcconfig"; sourceTree = "<group>"; };
+		861C6DD9426DBC810CB062AE /* Pods_HaxballGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D0E516AA2EEA8EDDD73C0 /* Pods-HaxballGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B91C3A4EE93C45C8706ABCB /* Pods-HaxballGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGameUITests/Pods-HaxballGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3763CD47A8C26268792D2B3 /* Pods-HaxballGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7858083CE6A949202FD3920 /* Pods-HaxballGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaxballGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaxballGameUITests/Pods-HaxballGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1EB6D78C980568A07F2D409 /* Pods_HaxballGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752D5CA73EBE3E70131A455D /* Pods_HaxballGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB962D29D62861AD13CAF415 /* Pods_HaxballGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA26EE1846E809850D91E49C /* Pods_HaxballGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				10F9C8841DD2637F00C8CCE4 /* HaxballGameTests */,
 				10F9C88F1DD2637F00C8CCE4 /* HaxballGameUITests */,
 				10F9C86C1DD2637F00C8CCE4 /* Products */,
+				31C6D4EBF4C7CFABC01FABC7 /* Pods */,
+				A2E15E1BF2231C26998A75E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = HaxballGameUITests;
 			sourceTree = "<group>";
 		};
+		31C6D4EBF4C7CFABC01FABC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C5488EC6E773D04887B91B4 /* Pods-HaxballGame.debug.xcconfig */,
+				76085B6452019CAB8ADC1EA7 /* Pods-HaxballGame.release.xcconfig */,
+				A3763CD47A8C26268792D2B3 /* Pods-HaxballGameTests.debug.xcconfig */,
+				880D0E516AA2EEA8EDDD73C0 /* Pods-HaxballGameTests.release.xcconfig */,
+				C7858083CE6A949202FD3920 /* Pods-HaxballGameUITests.debug.xcconfig */,
+				8B91C3A4EE93C45C8706ABCB /* Pods-HaxballGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2E15E1BF2231C26998A75E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861C6DD9426DBC810CB062AE /* Pods_HaxballGame.framework */,
+				D1EB6D78C980568A07F2D409 /* Pods_HaxballGameTests.framework */,
+				3B717E665CAECB88CD4A260E /* Pods_HaxballGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F9C8951DD2637F00C8CCE4 /* Build configuration list for PBXNativeTarget "HaxballGame" */;
 			buildPhases = (
+				AC7D88A8F7C74A289C3B8FB4 /* [CP] Check Pods Manifest.lock */,
 				10F9C8671DD2637F00C8CCE4 /* Sources */,
 				10F9C8681DD2637F00C8CCE4 /* Frameworks */,
 				10F9C8691DD2637F00C8CCE4 /* Resources */,
+				F7089251F630A223C9B917B8 /* [CP] Embed Pods Frameworks */,
+				715A68DF9D4F504EAC59249B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F9C8981DD2637F00C8CCE4 /* Build configuration list for PBXNativeTarget "HaxballGameTests" */;
 			buildPhases = (
+				5EA12B13A9A89B4F20ECFE52 /* [CP] Check Pods Manifest.lock */,
 				10F9C87D1DD2637F00C8CCE4 /* Sources */,
 				10F9C87E1DD2637F00C8CCE4 /* Frameworks */,
 				10F9C87F1DD2637F00C8CCE4 /* Resources */,
+				FB846B2F110E88C5CAAF62B1 /* [CP] Embed Pods Frameworks */,
+				4C10FF40BA64606D3F5CCF83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F9C89B1DD2637F00C8CCE4 /* Build configuration list for PBXNativeTarget "HaxballGameUITests" */;
 			buildPhases = (
+				3FC27F392140C1256654E081 /* [CP] Check Pods Manifest.lock */,
 				10F9C8881DD2637F00C8CCE4 /* Sources */,
 				10F9C8891DD2637F00C8CCE4 /* Frameworks */,
 				10F9C88A1DD2637F00C8CCE4 /* Resources */,
+				83067A0EBCF2B51E88B52F15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC27F392140C1256654E081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C10FF40BA64606D3F5CCF83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA12B13A9A89B4F20ECFE52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		715A68DF9D4F504EAC59249B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83067A0EBCF2B51E88B52F15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaxballGameUITests/Pods-HaxballGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7D88A8F7C74A289C3B8FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7089251F630A223C9B917B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaxballGame/Pods-HaxballGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB846B2F110E88C5CAAF62B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10F9C8671DD2637F00C8CCE4 /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		10F9C8961DD2637F00C8CCE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5488EC6E773D04887B91B4 /* Pods-HaxballGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HaxballGame/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		10F9C8971DD2637F00C8CCE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76085B6452019CAB8ADC1EA7 /* Pods-HaxballGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HaxballGame/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		10F9C8991DD2637F00C8CCE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3763CD47A8C26268792D2B3 /* Pods-HaxballGameTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -438,6 +612,7 @@
 		};
 		10F9C89A1DD2637F00C8CCE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880D0E516AA2EEA8EDDD73C0 /* Pods-HaxballGameTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HaxballGameTests/Info.plist;
@@ -450,6 +625,7 @@
 		};
 		10F9C89C1DD2637F00C8CCE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7858083CE6A949202FD3920 /* Pods-HaxballGameUITests.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = HaxballGameUITests/Info.plist;
@@ -462,6 +638,7 @@
 		};
 		10F9C89D1DD2637F00C8CCE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B91C3A4EE93C45C8706ABCB /* Pods-HaxballGameUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HaxballGameUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,6 +667,7 @@
 				10F9C8971DD2637F00C8CCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F9C8981DD2637F00C8CCE4 /* Build configuration list for PBXNativeTarget "HaxballGameTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +676,7 @@
 				10F9C89A1DD2637F00C8CCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F9C89B1DD2637F00C8CCE4 /* Build configuration list for PBXNativeTarget "HaxballGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +685,7 @@
 				10F9C89D1DD2637F00C8CCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

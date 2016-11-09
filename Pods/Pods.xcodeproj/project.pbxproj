@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CDC4AC2EC5C87B536A8F5E9FFD4F8E /* GameCenterManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C716CE0BF0B1655809800468F771CEE /* GameCenterManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151E33E85BDA88E034A06CD974E03888 /* CDJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F420E7BDA268389F4960DF025429FB63 /* CDJoystick.swift */; };
+		16A8D95881C50E99E87C83989DFBDBFA /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */; };
+		3004044BCF45501FA2273991F78BA900 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63E02E07426691F3172B17411E09B89 /* SystemConfiguration.framework */; };
+		362FC9711F3FF0152D49EC525EBF7CDB /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5372394639FAD1528C453B8511D4CE24 /* Reachability-dummy.m */; };
+		422EAD23A25E10749E11F6FC4D9F24A4 /* Pods-HaxballGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F311AE73E90692A984EB8DB99027144E /* Pods-HaxballGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F63D4418DD4D2AE667BECC3E01C5E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F872C165C34442B4BD1646698ECC41 /* Security.framework */; };
+		538684B073C70323CD65A0AC8C3E07D7 /* NSDataAES256.h in Headers */ = {isa = PBXBuildFile; fileRef = F04282327DBAE0EF47260E92CE28B528 /* NSDataAES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1BECF0AE33DB1FF8C19452AB20ADEF /* CDJoystick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7535A42EC4661ED353B9590A91E76DC8 /* CDJoystick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		616783EC4D3D73B0FA68978D343E4CFD /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF2757C020AE71217DD7CDBB39AA8D9 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6183DBB4BC38415265BE27F25B5B9437 /* Pods-HaxballGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B2A05D927058CFD4145BC605D33ABA /* Pods-HaxballGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3F4E261CDE3DDAFDE4AB61BBFC7D6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		81BBA7306C8BE027431109DD489DE67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		83D8C9FB4A983800A25393F26F76962B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		8417F2788126A52B65D1D1F5FB2A240B /* Pods-HaxballGameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5C27BD6EE64DAB2749BB393197F14D /* Pods-HaxballGameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A3E77F6B8FDC4916CB4ADE3B87BA91 /* Pods-HaxballGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B633F8D05C75F67DD457C33F1C290E /* Pods-HaxballGameUITests-dummy.m */; };
+		99F0FC22EEC92232DCCD8F1B74001AF3 /* GameCenterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC43B59C4E826A86BE9F24D28B23EC3B /* GameCenterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A602D6F0AB1849E32C2E79C2DF39A579 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD113B4BBD4286767E2A6DCB599366B4 /* GameKit.framework */; };
+		B2F035ACF007DE17CE25B59BD09C977F /* GameCenterManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4E96FF234FEB530E1C049E4C26DD4 /* GameCenterManager-dummy.m */; };
+		B4C5D1EA7BF0D081527C6CDEAAA84F6F /* Pods-HaxballGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD68F3F3353CE350F9600F81CC8F028 /* Pods-HaxballGame-dummy.m */; };
+		B5C8FC00E07BA05980C2C809001D27B0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 695BDEC0751B76309EF8FED4790D1667 /* Reachability.m */; };
+		C8F19F4708A1BEF291D4975B22C219D4 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E4E682F8DED1070E8EA2290139AC49 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE9FF1ECCB9A709AF2EDD2F5B7A3CB78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		D5764854FF09C9B832EAA9A14E40C2A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		D5B123A700B1DF744D026D29173FBEE7 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3684658582E6681A076FE49ACB22E5 /* GameCenterManager.m */; };
+		D6DA55F6563DF85A8ED4AD73A646A4E9 /* CDJoystick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52635B8C4CC3C3932ADEE41AE6CD79E /* CDJoystick-dummy.m */; };
+		E1516C404631E9692422362D365CC528 /* NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AC8997F8B61DCC724FEC99248BC625 /* NSDataAES256.m */; };
+		EDDE7DA795E3BCA1ACD36CEA5F893F51 /* Pods-HaxballGameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E75518FAB8977290F8DBCF3CE72D054 /* Pods-HaxballGameTests-dummy.m */; };
+		F75B3FFFBDD59B5C5A91409B3E7AB42C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */; };
+		FF0E51F6E1C481A381A0A50F0F1C1D8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63E02E07426691F3172B17411E09B89 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2474E4A2EF2E8F1A9F76869B6758A356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1A6ACDB60EB43094C7C6C308DECEE2;
+			remoteInfo = GameCenterManager;
+		};
+		3A65567485F054CFFB8C08E97DA1FC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23A5E369D08254090EB8215660066330;
+			remoteInfo = Reachability;
+		};
+		B189A3B0FC7A8085255916187A218B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91327F219D2C62C7DFF2F943198B99D2;
+			remoteInfo = CDJoystick;
+		};
+		EF24D03FCFD863212A25731DD7C9F200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23A5E369D08254090EB8215660066330;
+			remoteInfo = Reachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A641CA097866381A69456EB704BD1F9 /* Pods-HaxballGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E75518FAB8977290F8DBCF3CE72D054 /* Pods-HaxballGameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaxballGameTests-dummy.m"; sourceTree = "<group>"; };
+		0EC7FE833A5F791963495730B313387F /* Pods-HaxballGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaxballGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		10B633F8D05C75F67DD457C33F1C290E /* Pods-HaxballGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaxballGameUITests-dummy.m"; sourceTree = "<group>"; };
+		131B9F10C8F11B563338FA41C939DAB5 /* Pods-HaxballGameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGameTests-resources.sh"; sourceTree = "<group>"; };
+		163842A9023CC7173D16307CAF54EB54 /* CDJoystick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDJoystick-prefix.pch"; sourceTree = "<group>"; };
+		1AF1399BE0A268F6F8DDE03D0F0334E1 /* Pods-HaxballGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGame.release.xcconfig"; sourceTree = "<group>"; };
+		1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205768E1CAA2BD4479E2EAFB15A04BB4 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		23BD5EBD2244F4CE544E4D0089727881 /* Pods-HaxballGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		291AF1A7B614584A3A54DC58A344A84E /* GameCenterManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameCenterManager-prefix.pch"; sourceTree = "<group>"; };
+		2B7FC8874E6DCC9842F8C9AA21175E72 /* Pods_HaxballGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3075B6BA6B6D24F09FFDF3394415D95E /* Pods-HaxballGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31386E4F4DE87C40B8CAC17D6309226C /* Pods-HaxballGameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaxballGameTests.modulemap"; sourceTree = "<group>"; };
+		37D9397EE1A5BBCB761A1DF6749195F4 /* Pods-HaxballGameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGameUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3F5C27BD6EE64DAB2749BB393197F14D /* Pods-HaxballGameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaxballGameTests-umbrella.h"; sourceTree = "<group>"; };
+		45CA021E635E25785C169754F27E6679 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA7AB143A779659BAAE62F992F52542 /* GameCenterManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GameCenterManager.xcconfig; sourceTree = "<group>"; };
+		4D5F44DF0839DF2590B00BD0B73BD864 /* Pods-HaxballGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGame-resources.sh"; sourceTree = "<group>"; };
+		4DC083C9398A60A17526B8A825108FF7 /* Pods-HaxballGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaxballGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5337E81AE83D7F32B997479851E3A713 /* Pods-HaxballGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaxballGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5372394639FAD1528C453B8511D4CE24 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		57B2A05D927058CFD4145BC605D33ABA /* Pods-HaxballGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaxballGameUITests-umbrella.h"; sourceTree = "<group>"; };
+		5F499DC2B56BFA12CED20508AE18DF5F /* CDJoystick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDJoystick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662C1832211C1C567995F83443887273 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Reachability.modulemap; sourceTree = "<group>"; };
+		695BDEC0751B76309EF8FED4790D1667 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6C716CE0BF0B1655809800468F771CEE /* GameCenterManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameCenterManager-umbrella.h"; sourceTree = "<group>"; };
+		6D90A091E5150E01CDB274BA46E16B4D /* Pods_HaxballGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3267D01652FF8596F856A1A56658F6 /* GameCenterManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameCenterManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D160242C74D734C7FA48CF40A41DED /* Pods-HaxballGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGame.debug.xcconfig"; sourceTree = "<group>"; };
+		7535A42EC4661ED353B9590A91E76DC8 /* CDJoystick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDJoystick-umbrella.h"; sourceTree = "<group>"; };
+		75AC8997F8B61DCC724FEC99248BC625 /* NSDataAES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataAES256.m; path = "GC Manager/NSDataAES256.m"; sourceTree = "<group>"; };
+		773353B73DCAE0E0164F9D23B5E1058A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8062568D75BA1EEBB5135D2F2882BBBA /* CDJoystick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDJoystick.xcconfig; sourceTree = "<group>"; };
+		878DB09BA4E90956A86449A8B9A4890D /* Pods-HaxballGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaxballGameUITests.modulemap"; sourceTree = "<group>"; };
+		88F872C165C34442B4BD1646698ECC41 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8C19C455FA0AAB79AA76C47C8483DC62 /* Pods-HaxballGameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGameTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE4E96FF234FEB530E1C049E4C26DD4 /* GameCenterManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GameCenterManager-dummy.m"; sourceTree = "<group>"; };
+		9F073647A6D40CAD9A6B6D972C0B5233 /* Pods-HaxballGameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGameUITests-resources.sh"; sourceTree = "<group>"; };
+		A1810FB01EE0F85B142B074ED93C7D6D /* Pods-HaxballGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaxballGame.modulemap"; sourceTree = "<group>"; };
+		A6C6FC9C2C991403915FA17F3325D31F /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		AC184A48E716023D83E1DA5D79B72079 /* Pods-HaxballGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaxballGame-frameworks.sh"; sourceTree = "<group>"; };
+		B1C3CB0B31B75BC05C00584B46DA3EB2 /* Pods-HaxballGameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaxballGameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5F2068A2C0355EF0F4FC42C333F23D8 /* CDJoystick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CDJoystick.modulemap; sourceTree = "<group>"; };
+		B7E4E682F8DED1070E8EA2290139AC49 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BF0C480D2528E0D6969767CA2ADEA493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3684658582E6681A076FE49ACB22E5 /* GameCenterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GameCenterManager.m; path = "GC Manager/GameCenterManager.m"; sourceTree = "<group>"; };
+		C1FB5AF5C29AF70148598CD7C7A63B56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C293D43C9A5471D422C5C5E09B80A5FE /* GameCenterManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GameCenterManager.modulemap; sourceTree = "<group>"; };
+		C3A2285169F93C176709B59691348C6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA8BCA5142A8841A7CB911A4FBFA48F /* Pods_HaxballGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaxballGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC43B59C4E826A86BE9F24D28B23EC3B /* GameCenterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GameCenterManager.h; path = "GC Manager/GameCenterManager.h"; sourceTree = "<group>"; };
+		CEF2757C020AE71217DD7CDBB39AA8D9 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		D0A0FFF7276E773B0B0DADCE2BEF5440 /* Pods-HaxballGameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaxballGameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D52635B8C4CC3C3932ADEE41AE6CD79E /* CDJoystick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDJoystick-dummy.m"; sourceTree = "<group>"; };
+		D70106CC22B332F83D04695263CED16A /* Pods-HaxballGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaxballGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E63E02E07426691F3172B17411E09B89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9DF65E386901DA6423775DC4DCAA4CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD68F3F3353CE350F9600F81CC8F028 /* Pods-HaxballGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaxballGame-dummy.m"; sourceTree = "<group>"; };
+		F04282327DBAE0EF47260E92CE28B528 /* NSDataAES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataAES256.h; path = "GC Manager/NSDataAES256.h"; sourceTree = "<group>"; };
+		F311AE73E90692A984EB8DB99027144E /* Pods-HaxballGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaxballGame-umbrella.h"; sourceTree = "<group>"; };
+		F420E7BDA268389F4960DF025429FB63 /* CDJoystick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDJoystick.swift; path = Pod/Classes/CDJoystick.swift; sourceTree = "<group>"; };
+		F817E09EF26CA504A9A8BEEDD05BD230 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0A60B5F9CA63A1147D73DA3505AD23 /* Pods-HaxballGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaxballGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD113B4BBD4286767E2A6DCB599366B4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755F12943240302803A37552DCD49861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D8C9FB4A983800A25393F26F76962B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02F47D99AE85512E3A3267DF32DC42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3F4E261CDE3DDAFDE4AB61BBFC7D6F /* Foundation.framework in Frameworks */,
+				3004044BCF45501FA2273991F78BA900 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76A7CBCEEA571032A08075C17EE980F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5764854FF09C9B832EAA9A14E40C2A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA998E91F52F65F976A34B77F7B76933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FF1ECCB9A709AF2EDD2F5B7A3CB78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADCA23A72619DC79A1DCDB0052E8E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75B3FFFBDD59B5C5A91409B3E7AB42C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADDAECCBB3C30655AD733227E8EC20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BBA7306C8BE027431109DD489DE67A /* Foundation.framework in Frameworks */,
+				A602D6F0AB1849E32C2E79C2DF39A579 /* GameKit.framework in Frameworks */,
+				16A8D95881C50E99E87C83989DFBDBFA /* Reachability.framework in Frameworks */,
+				48F63D4418DD4D2AE667BECC3E01C5E9 /* Security.framework in Frameworks */,
+				FF0E51F6E1C481A381A0A50F0F1C1D8D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ED4FBBD75629B168218A8CE9B59F2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F2068A2C0355EF0F4FC42C333F23D8 /* CDJoystick.modulemap */,
+				8062568D75BA1EEBB5135D2F2882BBBA /* CDJoystick.xcconfig */,
+				D52635B8C4CC3C3932ADEE41AE6CD79E /* CDJoystick-dummy.m */,
+				163842A9023CC7173D16307CAF54EB54 /* CDJoystick-prefix.pch */,
+				7535A42EC4661ED353B9590A91E76DC8 /* CDJoystick-umbrella.h */,
+				BF0C480D2528E0D6969767CA2ADEA493 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDJoystick";
+			sourceTree = "<group>";
+		};
+		4190F30696E1101E763B588E7C087FEB /* GameCenterManager */ = {
+			isa = PBXGroup;
+			children = (
+				CC43B59C4E826A86BE9F24D28B23EC3B /* GameCenterManager.h */,
+				BF3684658582E6681A076FE49ACB22E5 /* GameCenterManager.m */,
+				F04282327DBAE0EF47260E92CE28B528 /* NSDataAES256.h */,
+				75AC8997F8B61DCC724FEC99248BC625 /* NSDataAES256.m */,
+				E893748C158920FC7ED0F3FA73A9FFFF /* Support Files */,
+			);
+			path = GameCenterManager;
+			sourceTree = "<group>";
+		};
+		43262CE63EA29885C21D8A1391A824B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94316401AD706E55D0ED66DCE0E45798 /* Pods-HaxballGame */,
+				513B58BCF4500F7A7467E3D5B43AD56A /* Pods-HaxballGameTests */,
+				AF83A0E97338CC496F14964575D480B2 /* Pods-HaxballGameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		513B58BCF4500F7A7467E3D5B43AD56A /* Pods-HaxballGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A2285169F93C176709B59691348C6B /* Info.plist */,
+				31386E4F4DE87C40B8CAC17D6309226C /* Pods-HaxballGameTests.modulemap */,
+				B1C3CB0B31B75BC05C00584B46DA3EB2 /* Pods-HaxballGameTests-acknowledgements.markdown */,
+				D0A0FFF7276E773B0B0DADCE2BEF5440 /* Pods-HaxballGameTests-acknowledgements.plist */,
+				0E75518FAB8977290F8DBCF3CE72D054 /* Pods-HaxballGameTests-dummy.m */,
+				8C19C455FA0AAB79AA76C47C8483DC62 /* Pods-HaxballGameTests-frameworks.sh */,
+				131B9F10C8F11B563338FA41C939DAB5 /* Pods-HaxballGameTests-resources.sh */,
+				3F5C27BD6EE64DAB2749BB393197F14D /* Pods-HaxballGameTests-umbrella.h */,
+				3075B6BA6B6D24F09FFDF3394415D95E /* Pods-HaxballGameTests.debug.xcconfig */,
+				23BD5EBD2244F4CE544E4D0089727881 /* Pods-HaxballGameTests.release.xcconfig */,
+			);
+			name = "Pods-HaxballGameTests";
+			path = "Target Support Files/Pods-HaxballGameTests";
+			sourceTree = "<group>";
+		};
+		6DB3C0447087A5DB433262826C47438C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F499DC2B56BFA12CED20508AE18DF5F /* CDJoystick.framework */,
+				6E3267D01652FF8596F856A1A56658F6 /* GameCenterManager.framework */,
+				CAA8BCA5142A8841A7CB911A4FBFA48F /* Pods_HaxballGame.framework */,
+				2B7FC8874E6DCC9842F8C9AA21175E72 /* Pods_HaxballGameTests.framework */,
+				6D90A091E5150E01CDB274BA46E16B4D /* Pods_HaxballGameUITests.framework */,
+				F817E09EF26CA504A9A8BEEDD05BD230 /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A609B33E2FDB2D38EDA350D1951BCC17 /* Frameworks */,
+				990DF886B5116CA07F1BC32BA376B46F /* Pods */,
+				6DB3C0447087A5DB433262826C47438C /* Products */,
+				43262CE63EA29885C21D8A1391A824B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		913942F815A3D5EE82864F49F49B260C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6FF5DEF13B1FF8B604A6BD28500C4F3 /* Foundation.framework */,
+				FD113B4BBD4286767E2A6DCB599366B4 /* GameKit.framework */,
+				88F872C165C34442B4BD1646698ECC41 /* Security.framework */,
+				E63E02E07426691F3172B17411E09B89 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94316401AD706E55D0ED66DCE0E45798 /* Pods-HaxballGame */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF65E386901DA6423775DC4DCAA4CD /* Info.plist */,
+				A1810FB01EE0F85B142B074ED93C7D6D /* Pods-HaxballGame.modulemap */,
+				4DC083C9398A60A17526B8A825108FF7 /* Pods-HaxballGame-acknowledgements.markdown */,
+				0EC7FE833A5F791963495730B313387F /* Pods-HaxballGame-acknowledgements.plist */,
+				EAD68F3F3353CE350F9600F81CC8F028 /* Pods-HaxballGame-dummy.m */,
+				AC184A48E716023D83E1DA5D79B72079 /* Pods-HaxballGame-frameworks.sh */,
+				4D5F44DF0839DF2590B00BD0B73BD864 /* Pods-HaxballGame-resources.sh */,
+				F311AE73E90692A984EB8DB99027144E /* Pods-HaxballGame-umbrella.h */,
+				71D160242C74D734C7FA48CF40A41DED /* Pods-HaxballGame.debug.xcconfig */,
+				1AF1399BE0A268F6F8DDE03D0F0334E1 /* Pods-HaxballGame.release.xcconfig */,
+			);
+			name = "Pods-HaxballGame";
+			path = "Target Support Files/Pods-HaxballGame";
+			sourceTree = "<group>";
+		};
+		990DF886B5116CA07F1BC32BA376B46F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDBA64075D21FAEF36F9A85B81BA807B /* CDJoystick */,
+				4190F30696E1101E763B588E7C087FEB /* GameCenterManager */,
+				EF323CFF0A26F7B7F456DADE9C569079 /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A609B33E2FDB2D38EDA350D1951BCC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC5EA6F7487522659CD47921E86CD76 /* Reachability.framework */,
+				913942F815A3D5EE82864F49F49B260C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE51E4F1BE0FF3D88EA93DF0A66EA882 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1FB5AF5C29AF70148598CD7C7A63B56 /* Info.plist */,
+				662C1832211C1C567995F83443887273 /* Reachability.modulemap */,
+				205768E1CAA2BD4479E2EAFB15A04BB4 /* Reachability.xcconfig */,
+				5372394639FAD1528C453B8511D4CE24 /* Reachability-dummy.m */,
+				A6C6FC9C2C991403915FA17F3325D31F /* Reachability-prefix.pch */,
+				CEF2757C020AE71217DD7CDBB39AA8D9 /* Reachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		AF83A0E97338CC496F14964575D480B2 /* Pods-HaxballGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45CA021E635E25785C169754F27E6679 /* Info.plist */,
+				878DB09BA4E90956A86449A8B9A4890D /* Pods-HaxballGameUITests.modulemap */,
+				D70106CC22B332F83D04695263CED16A /* Pods-HaxballGameUITests-acknowledgements.markdown */,
+				5337E81AE83D7F32B997479851E3A713 /* Pods-HaxballGameUITests-acknowledgements.plist */,
+				10B633F8D05C75F67DD457C33F1C290E /* Pods-HaxballGameUITests-dummy.m */,
+				37D9397EE1A5BBCB761A1DF6749195F4 /* Pods-HaxballGameUITests-frameworks.sh */,
+				9F073647A6D40CAD9A6B6D972C0B5233 /* Pods-HaxballGameUITests-resources.sh */,
+				57B2A05D927058CFD4145BC605D33ABA /* Pods-HaxballGameUITests-umbrella.h */,
+				FC0A60B5F9CA63A1147D73DA3505AD23 /* Pods-HaxballGameUITests.debug.xcconfig */,
+				0A641CA097866381A69456EB704BD1F9 /* Pods-HaxballGameUITests.release.xcconfig */,
+			);
+			name = "Pods-HaxballGameUITests";
+			path = "Target Support Files/Pods-HaxballGameUITests";
+			sourceTree = "<group>";
+		};
+		E893748C158920FC7ED0F3FA73A9FFFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C293D43C9A5471D422C5C5E09B80A5FE /* GameCenterManager.modulemap */,
+				4AA7AB143A779659BAAE62F992F52542 /* GameCenterManager.xcconfig */,
+				9DE4E96FF234FEB530E1C049E4C26DD4 /* GameCenterManager-dummy.m */,
+				291AF1A7B614584A3A54DC58A344A84E /* GameCenterManager-prefix.pch */,
+				6C716CE0BF0B1655809800468F771CEE /* GameCenterManager-umbrella.h */,
+				773353B73DCAE0E0164F9D23B5E1058A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GameCenterManager";
+			sourceTree = "<group>";
+		};
+		EF323CFF0A26F7B7F456DADE9C569079 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B7E4E682F8DED1070E8EA2290139AC49 /* Reachability.h */,
+				695BDEC0751B76309EF8FED4790D1667 /* Reachability.m */,
+				AE51E4F1BE0FF3D88EA93DF0A66EA882 /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FDBA64075D21FAEF36F9A85B81BA807B /* CDJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				F420E7BDA268389F4960DF025429FB63 /* CDJoystick.swift */,
+				32ED4FBBD75629B168218A8CE9B59F2A /* Support Files */,
+			);
+			path = CDJoystick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B60F7766F0BA65EC8BA298488338EC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616783EC4D3D73B0FA68978D343E4CFD /* Reachability-umbrella.h in Headers */,
+				C8F19F4708A1BEF291D4975B22C219D4 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38206BA4BA9017F1EB1CBCA94159042C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8417F2788126A52B65D1D1F5FB2A240B /* Pods-HaxballGameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCFA78D7251AF0437458D909B12D678 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6183DBB4BC38415265BE27F25B5B9437 /* Pods-HaxballGameUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B51FAB549733A842955E1685937189A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422EAD23A25E10749E11F6FC4D9F24A4 /* Pods-HaxballGame-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF60A449A1C894D4BCCF0A7C50B1B11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1BECF0AE33DB1FF8C19452AB20ADEF /* CDJoystick-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01D5424E964CF078FC225D0B40792AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CDC4AC2EC5C87B536A8F5E9FFD4F8E /* GameCenterManager-umbrella.h in Headers */,
+				99F0FC22EEC92232DCCD8F1B74001AF3 /* GameCenterManager.h in Headers */,
+				538684B073C70323CD65A0AC8C3E07D7 /* NSDataAES256.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23A5E369D08254090EB8215660066330 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981A50608A2F2491211BB6A100B51785 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				EF7E0D3BD0688EA55A961BE4DD186119 /* Sources */,
+				A02F47D99AE85512E3A3267DF32DC42A /* Frameworks */,
+				2B60F7766F0BA65EC8BA298488338EC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = F817E09EF26CA504A9A8BEEDD05BD230 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39628F53C061E027C12BB773FA72A707 /* Pods-HaxballGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B01A57F071199350FC2A03372BE1FD /* Build configuration list for PBXNativeTarget "Pods-HaxballGameUITests" */;
+			buildPhases = (
+				33AB8BC0FE4AB8713F4AC791564869F2 /* Sources */,
+				CADCA23A72619DC79A1DCDB0052E8E6C /* Frameworks */,
+				3CCFA78D7251AF0437458D909B12D678 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaxballGameUITests";
+			productName = "Pods-HaxballGameUITests";
+			productReference = 6D90A091E5150E01CDB274BA46E16B4D /* Pods_HaxballGameUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50D6F894840837C930C517B92898D981 /* Pods-HaxballGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2D031430E2C0B84B88C59A6A352841 /* Build configuration list for PBXNativeTarget "Pods-HaxballGame" */;
+			buildPhases = (
+				39218A6AC1BA26BFB486D30FDF2549BC /* Sources */,
+				C76A7CBCEEA571032A08075C17EE980F /* Frameworks */,
+				5B51FAB549733A842955E1685937189A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CE180787588B2C5FC60E5A8D92ED0D /* PBXTargetDependency */,
+				BB2292AEF8B9B798628BE3408F71D068 /* PBXTargetDependency */,
+				FB54076410411BF71B1FEB17365C3B67 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaxballGame";
+			productName = "Pods-HaxballGame";
+			productReference = CAA8BCA5142A8841A7CB911A4FBFA48F /* Pods_HaxballGame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66C481C929C1899BBDDE9616A73A31D4 /* Pods-HaxballGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC84C176833FF96878D9790F4ED5C980 /* Build configuration list for PBXNativeTarget "Pods-HaxballGameTests" */;
+			buildPhases = (
+				916ED6C6DADEF35EB26CBA8D7914D357 /* Sources */,
+				CA998E91F52F65F976A34B77F7B76933 /* Frameworks */,
+				38206BA4BA9017F1EB1CBCA94159042C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaxballGameTests";
+			productName = "Pods-HaxballGameTests";
+			productReference = 2B7FC8874E6DCC9842F8C9AA21175E72 /* Pods_HaxballGameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91327F219D2C62C7DFF2F943198B99D2 /* CDJoystick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F38AAD0CA25D736C5E28A29DB13F44A /* Build configuration list for PBXNativeTarget "CDJoystick" */;
+			buildPhases = (
+				F135698815AC1D6205F5CBBC50F9C476 /* Sources */,
+				755F12943240302803A37552DCD49861 /* Frameworks */,
+				6DF60A449A1C894D4BCCF0A7C50B1B11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDJoystick;
+			productName = CDJoystick;
+			productReference = 5F499DC2B56BFA12CED20508AE18DF5F /* CDJoystick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB1A6ACDB60EB43094C7C6C308DECEE2 /* GameCenterManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D85C4F3CB660365EDC14423A953096 /* Build configuration list for PBXNativeTarget "GameCenterManager" */;
+			buildPhases = (
+				8CB23B9042E080093E8D9B777B2BF170 /* Sources */,
+				FADDAECCBB3C30655AD733227E8EC20A /* Frameworks */,
+				C01D5424E964CF078FC225D0B40792AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D1A8CFFA8279861F7EDD01217AE38C /* PBXTargetDependency */,
+			);
+			name = GameCenterManager;
+			productName = GameCenterManager;
+			productReference = 6E3267D01652FF8596F856A1A56658F6 /* GameCenterManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6DB3C0447087A5DB433262826C47438C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91327F219D2C62C7DFF2F943198B99D2 /* CDJoystick */,
+				CB1A6ACDB60EB43094C7C6C308DECEE2 /* GameCenterManager */,
+				50D6F894840837C930C517B92898D981 /* Pods-HaxballGame */,
+				66C481C929C1899BBDDE9616A73A31D4 /* Pods-HaxballGameTests */,
+				39628F53C061E027C12BB773FA72A707 /* Pods-HaxballGameUITests */,
+				23A5E369D08254090EB8215660066330 /* Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AB8BC0FE4AB8713F4AC791564869F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A3E77F6B8FDC4916CB4ADE3B87BA91 /* Pods-HaxballGameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39218A6AC1BA26BFB486D30FDF2549BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C5D1EA7BF0D081527C6CDEAAA84F6F /* Pods-HaxballGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB23B9042E080093E8D9B777B2BF170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F035ACF007DE17CE25B59BD09C977F /* GameCenterManager-dummy.m in Sources */,
+				D5B123A700B1DF744D026D29173FBEE7 /* GameCenterManager.m in Sources */,
+				E1516C404631E9692422362D365CC528 /* NSDataAES256.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916ED6C6DADEF35EB26CBA8D7914D357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDE7DA795E3BCA1ACD36CEA5F893F51 /* Pods-HaxballGameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7E0D3BD0688EA55A961BE4DD186119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362FC9711F3FF0152D49EC525EBF7CDB /* Reachability-dummy.m in Sources */,
+				B5C8FC00E07BA05980C2C809001D27B0 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F135698815AC1D6205F5CBBC50F9C476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DA55F6563DF85A8ED4AD73A646A4E9 /* CDJoystick-dummy.m in Sources */,
+				151E33E85BDA88E034A06CD974E03888 /* CDJoystick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65CE180787588B2C5FC60E5A8D92ED0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDJoystick;
+			target = 91327F219D2C62C7DFF2F943198B99D2 /* CDJoystick */;
+			targetProxy = B189A3B0FC7A8085255916187A218B7E /* PBXContainerItemProxy */;
+		};
+		BB2292AEF8B9B798628BE3408F71D068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GameCenterManager;
+			target = CB1A6ACDB60EB43094C7C6C308DECEE2 /* GameCenterManager */;
+			targetProxy = 2474E4A2EF2E8F1A9F76869B6758A356 /* PBXContainerItemProxy */;
+		};
+		C4D1A8CFFA8279861F7EDD01217AE38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 23A5E369D08254090EB8215660066330 /* Reachability */;
+			targetProxy = EF24D03FCFD863212A25731DD7C9F200 /* PBXContainerItemProxy */;
+		};
+		FB54076410411BF71B1FEB17365C3B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 23A5E369D08254090EB8215660066330 /* Reachability */;
+			targetProxy = 3A65567485F054CFFB8C08E97DA1FC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A58FEF8D3E50E81FBE6AC371C34B981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D160242C74D734C7FA48CF40A41DED /* Pods-HaxballGame.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGame/Pods-HaxballGame.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E4CAF6FCA59F973D6BCD96FA1088E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A641CA097866381A69456EB704BD1F9 /* Pods-HaxballGameUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGameUITests/Pods-HaxballGameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C44A0BFED646A573BAB1A3D153773F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205768E1CAA2BD4479E2EAFB15A04BB4 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A4E72DBBFBDFBAC83E7765CF3B37871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3075B6BA6B6D24F09FFDF3394415D95E /* Pods-HaxballGameTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DE239E155FF976CCB0AD606E67CFA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA7AB143A779659BAAE62F992F52542 /* GameCenterManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GameCenterManager/GameCenterManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GameCenterManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GameCenterManager/GameCenterManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GameCenterManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D233D681D0CEDF3BBAF639500205CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA7AB143A779659BAAE62F992F52542 /* GameCenterManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GameCenterManager/GameCenterManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GameCenterManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GameCenterManager/GameCenterManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GameCenterManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABE0BEA3265A4A67A86D3752C789696D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8062568D75BA1EEBB5135D2F2882BBBA /* CDJoystick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDJoystick/CDJoystick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDJoystick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDJoystick/CDJoystick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CDJoystick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B60B8DDDB4F98F9A1AB52F7E4B44E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8062568D75BA1EEBB5135D2F2882BBBA /* CDJoystick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CDJoystick/CDJoystick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDJoystick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDJoystick/CDJoystick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CDJoystick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8BAEED2C7210C9DCB0D089714EA014A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205768E1CAA2BD4479E2EAFB15A04BB4 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D145C7DC8A9B36C201F2415AD8598DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF1399BE0A268F6F8DDE03D0F0334E1 /* Pods-HaxballGame.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGame/Pods-HaxballGame.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB7C76741FC04980A59E9C9D7CD2DA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BD5EBD2244F4CE544E4D0089727881 /* Pods-HaxballGameTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGameTests/Pods-HaxballGameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC34B918844694CC53F97F8EECBE9F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0A60B5F9CA63A1147D73DA3505AD23 /* Pods-HaxballGameUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaxballGameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaxballGameUITests/Pods-HaxballGameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaxballGameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2D031430E2C0B84B88C59A6A352841 /* Build configuration list for PBXNativeTarget "Pods-HaxballGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A58FEF8D3E50E81FBE6AC371C34B981 /* Debug */,
+				D145C7DC8A9B36C201F2415AD8598DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981A50608A2F2491211BB6A100B51785 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BAEED2C7210C9DCB0D089714EA014A /* Debug */,
+				4C44A0BFED646A573BAB1A3D153773F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F38AAD0CA25D736C5E28A29DB13F44A /* Build configuration list for PBXNativeTarget "CDJoystick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE0BEA3265A4A67A86D3752C789696D /* Debug */,
+				C8B60B8DDDB4F98F9A1AB52F7E4B44E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B01A57F071199350FC2A03372BE1FD /* Build configuration list for PBXNativeTarget "Pods-HaxballGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC34B918844694CC53F97F8EECBE9F3D /* Debug */,
+				1E4CAF6FCA59F973D6BCD96FA1088E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D85C4F3CB660365EDC14423A953096 /* Build configuration list for PBXNativeTarget "GameCenterManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE239E155FF976CCB0AD606E67CFA72 /* Debug */,
+				9D233D681D0CEDF3BBAF639500205CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC84C176833FF96878D9790F4ED5C980 /* Build configuration list for PBXNativeTarget "Pods-HaxballGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4E72DBBFBDFBAC83E7765CF3B37871 /* Debug */,
+				FB7C76741FC04980A59E9C9D7CD2DA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

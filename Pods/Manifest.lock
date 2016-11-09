@@ -1,0 +1,18 @@
+PODS:
+  - CDJoystick (0.1.0)
+  - GameCenterManager (5.3):
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - CDJoystick (~> 0.1.0)
+  - GameCenterManager (~> 5.3)
+
+SPEC CHECKSUMS:
+  CDJoystick: 3951e10f6d45deee220a75c950dffe8b42a4a858
+  GameCenterManager: e3a855e9db97b876a3a4a0605f5be30c6de9cebd
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 61bb9e0e1d4402ce1d99595a29aa992976d2ec05
+
+COCOAPODS: 1.0.1

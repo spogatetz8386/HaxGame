@@ -1,0 +1,6 @@
+framework module GameCenterManager {
+  umbrella header "GameCenterManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
